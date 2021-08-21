@@ -1,0 +1,59 @@
+.add-new-medication-buttons {
+    padding: 1em 1.5em;
+    font-size: 0.9em;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid;
+    width: 50%;
+}
+
+.add-new-medication-buttons:focus {
+    outline: none;
+}
+
+.add-new-medication-buttons.save {
+    color: white;
+    border-color: #436b88;
+    background-color: #436b88;
+    border-radius: 0em 0em 0em 0.3rem;
+}
+
+.add-new-medication-buttons.save:hover {
+    background-color: #5783a3;
+    border-color: #5783a3;
+}
+
+.add-new-medication-buttons.cancel {
+    color: #436b88;
+    background-color: white;
+    border-radius: 0em 0em 0.3rem 0em;
+}
+
+.add-new-medication-buttons.cancel:hover {
+    background-color: gainsboro;
+}
+
+.title {
+    font-weight: bold;
+    margin: 0%;
+}
+
+.medication {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+}
+
+.medication-input {
+    width: 100%;
+    border: 1px solid #436b88;
+    border-radius: 1em;
+    padding: 1em 1.5em;
+    font-size: 0.9em;
+    box-sizing: border-box;
+}
+
+.medication-input:focus {
+    outline: none;
+    border: 3px solid #436b88;
+}

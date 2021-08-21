@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="AutoMapper" Version="10.0.0" />
+	<PackageReference Include="EFCore.BulkExtensions" Version="3.2.5" />
+	<PackageReference Include="Grpc.AspNetCore" Version="2.33.1" />
+	<PackageReference Include="Grpc.Core" Version="2.33.1" />
+	<PackageReference Include="Grpc.Tools" Version="2.33.1">
+	  <PrivateAssets>all</PrivateAssets>
+	  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	</PackageReference>
+	<PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.9" />
+	<PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="5.0.0" />
+	<PackageReference Include="RabbitMQ.Client" Version="6.2.1" />
+	<PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+	<PackageReference Include="System.Data.OleDb" Version="4.7.1" />
+	<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IMMPlaH.DataAccess\IMMPlaH.DataAccess.csproj" />
+    <ProjectReference Include="..\IMMPlaH.Domain\IMMPlaH.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<None Update="App.config">
+		<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	</None>
+  </ItemGroup>
+
+
+	
+  <ItemGroup>
+    <Folder Include="Protos\" />
+  </ItemGroup>
+	
+  <ItemGroup>
+	  <Protobuf Include="Protos\medplan.proto" GrpcServices="Server"/>	  
+  </ItemGroup>
+	
+</Project>

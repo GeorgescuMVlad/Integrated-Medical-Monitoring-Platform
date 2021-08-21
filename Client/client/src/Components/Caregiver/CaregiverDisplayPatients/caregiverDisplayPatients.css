@@ -1,0 +1,33 @@
+.patient-card {
+    border-style: outset;
+    border-radius: 5px;
+    width: 100%;
+    background-color: white;
+    margin: 1em;
+    display: inline-block;
+    position: relative;
+    box-shadow: 4px 3px 8px 1px #969696;
+    border-top: 5px solid #EE0000;
+}
+  
+.patient-card .patient-name {
+    padding: 2em;
+    font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 90%;
+    text-align: justify;
+}
+  
+.patient-card .patient-details {
+    font-weight: none;
+    margin-left: 3.5em;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: justify;
+    width: 80%;
+    padding: 0.2em;
+    margin-bottom: 0.2em;
+    color: black;
+}
+  

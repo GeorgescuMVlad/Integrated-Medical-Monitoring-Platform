@@ -1,0 +1,32 @@
+.radio-checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    margin-right: 1em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid black;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.radio-checkbox-round:checked {
+    background-color: #EE0000;
+}
+
+.title {
+    font-weight: bold;
+    margin: 0%;
+}
+
+.patients-selected {
+    font-weight: none;
+    margin-left: 1em;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: justify;
+    width: 80%;
+    padding: 0.2em;
+    margin-bottom: 0.2em;
+}

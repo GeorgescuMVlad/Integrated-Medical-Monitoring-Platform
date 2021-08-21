@@ -1,0 +1,27 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "GrpcService1";
+
+package MedPlanData;
+
+service MedPlanService {
+	rpc GetMedPlan (Empty) returns (MedicationPlansDetailsDTO);
+}
+
+message Empty {
+
+}
+
+message MedicationPlanDetailsDTO {
+        string MedicationName = 1;
+
+        int32 Dosage = 2;
+
+        string IntakeInterval = 3;
+
+        string PeriodOfTreatment = 4;       
+}
+
+message MedicationPlansDetailsDTO {
+	repeated MedicationPlanDetailsDTO items = 1;
+}

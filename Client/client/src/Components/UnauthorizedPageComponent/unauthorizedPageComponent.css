@@ -1,0 +1,15 @@
+.unauthorized-page-container {
+    text-align: center;
+    background-color: white;
+}
+
+.error-title {
+    font-size: 10em;
+    width: 50%;
+    margin: 0em auto;
+}
+
+.error-illustration {
+    width: 50%;
+    height: auto;
+}

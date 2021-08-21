@@ -1,0 +1,45 @@
+.app-header {
+    background-color: #E80000;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.left-container {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.right-container {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.icon {
+    font-size: 2em;
+    display: inline;
+}
+
+.icon.logout{
+    margin-right: 2em;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.icon.home {
+    margin-left: 2em;
+}
+
+.home-link {
+    color: white;
+}
+
+.home-link:hover {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,66 @@
+.medication-card {
+    border-style: outset;
+    border-radius: 5px;
+    width: 100%;
+    background-color: white;
+    margin: 1em;
+    display: inline-block;
+    position: relative;
+    box-shadow: 4px 3px 8px 1px #969696;
+    border-top: 5px solid #EE0000;
+  }
+  
+  .medication-card .medication-name {
+    padding: 2em;
+    font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 90%;
+    text-align: justify;
+  }
+  
+  .medication-card .medication-details {
+    font-weight: none;
+    margin-left: 3.5em;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: justify;
+    width: 80%;
+    padding: 0.2em;
+    margin-bottom: 0.2em;
+    color: black;
+  }
+  
+  .medication-card .buttons-card{
+    position: absolute;
+    right: 0.5em;
+    top: 0;
+    width: 10%;
+    height: 100%;
+  }
+  
+  .medication-card .buttons-card .doctor-buttons{
+    color: white;
+    margin-top: 0.5em;
+    border: none;
+    border-radius: 1em;
+    padding: 0.5em 0.5em;
+    position: relative;
+    font-size: 0.9em;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+  }
+  
+  .medication-card .buttons-card .doctor-buttons.delete{
+    background-color: #EE0000;
+  }
+  
+  .medication-card .buttons-card .doctor-buttons.modify{
+    background-color: #436b88;
+  }
+
+  .medication-card .buttons-card :focus {
+    outline: none;
+}

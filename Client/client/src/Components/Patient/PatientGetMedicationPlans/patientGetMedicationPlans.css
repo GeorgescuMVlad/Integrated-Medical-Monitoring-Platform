@@ -1,0 +1,12 @@
+.card-container-medication-plans {
+    width: 90%;
+    padding: 3em;
+    margin: auto;
+    padding-top: 2em;
+}
+
+.patient-information {
+    margin-left: 3em;
+    font-weight: bold;
+    font-size: xx-large;
+}

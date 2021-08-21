@@ -1,0 +1,12 @@
+.card-container-patients {
+    width: 90%;
+    padding: 3em;
+    margin: auto;
+    padding-top: 2em;
+}
+
+.caregiver-information {
+    margin-left: 3em;
+    font-weight: bold;
+    font-size: xx-large;
+}

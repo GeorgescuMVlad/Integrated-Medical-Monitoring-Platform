@@ -1,0 +1,46 @@
+.dashboard-title {
+    margin-top: 0.6em;
+    margin-left: 1em;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.dashboard-container {
+    margin-top: 6em;
+    margin-bottom: 4em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.circle {
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+    background: #E80000;
+    padding-top: 4em;
+    transition: transform 0.25s ease-out;
+    cursor: pointer;
+    box-shadow: 4px 3px 8px 1px #ff4d4d;
+}
+
+.circle .count {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.circle .text {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.circle:hover {
+    transform: scale(1.05);
+}
+
+.link:hover {
+    text-decoration: none;
+}
